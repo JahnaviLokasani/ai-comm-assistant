@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; }
+.container { display:flex; gap:20px; padding:20px; }
+.sidebar { width:350px; border-right:1px solid #eee; padding-right:10px; }
+.main { flex:1; padding-left:10px; }
+.email-item { padding:8px; border-bottom:1px solid #f0f0f0; cursor:pointer; }
+.email-subject { font-weight:bold; }
+.email-meta { font-size:12px; color:#666; }
+.placeholder { color:#888; }
+.body { margin-top:10px; white-space:pre-wrap; background:#fafafa; padding:10px; border-radius:6px; }
